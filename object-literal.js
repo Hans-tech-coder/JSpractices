@@ -37,3 +37,12 @@ var carTwo = {};
 carTwo.color = 'red';
 console.log(typeof carTwo);
 console.log(carTwo.color);
+
+var carThree = {
+  color: {
+    a:'matte',
+    b: 'glossy',
+  }
+}
+
+console.log(carThree.color.a);
