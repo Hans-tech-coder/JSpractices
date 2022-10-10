@@ -19,8 +19,10 @@ let car = {
 }
 
 car.printDescription()
+car.color = 'blue'
 console.log(car.getPrice());
 console.log(carOne[0]); // - this is referring for the line 6.
+console.log(car.color);
 console.log(car['year']);
 console.log(car['make']);
 console.log(car['getPrice']);
@@ -30,4 +32,8 @@ console.log(car.model[0]); // - we call the car object and access the model prop
 change the attribute model to array
 */
 
-// var car = {}
+var carTwo = {};
+
+carTwo.color = 'red';
+console.log(typeof carTwo);
+console.log(carTwo.color);
