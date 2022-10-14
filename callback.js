@@ -23,8 +23,12 @@ task3();
 setTimeout(task1,2000);
 task2(); */
 
-const message = function(){
+/* const message = function(){
   console.log ("this message will be shown after 5s");
 }
 
-setTimeout(message,5000);
+setTimeout(message,5000); */
+
+setTimeout(function(){
+  console.log("This anonymous function will be displayed on the console after 3s");
+},3000);
