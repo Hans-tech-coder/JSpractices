@@ -29,6 +29,10 @@ task2(); */
 
 setTimeout(message,5000); */
 
-setTimeout(function(){
+/* setTimeout(function(){
   console.log("This anonymous function will be displayed on the console after 3s");
-},3000);
+},3000); */
+
+setTimeout(() =>{
+  console.log("This is an arrow function that will display the text after 4s");
+},4000);
